@@ -1,0 +1,35 @@
+*{
+	font-family: monospace;
+}
+#container{
+	background-color: #535c68;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content{
+	background-color: #30336b;
+	height: 160px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.display{
+	background-color: #130f40;
+	height: 130px;
+	width: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#time,
+small{
+	color: #fff;
+}
+.display small{
+	margin-left: 10px;
+	font-size: 18px;
+}
